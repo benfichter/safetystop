@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Police Safety Device</title>
+</head>
+<body>
+  <h1>Latest Driver Info</h1>
+  <div id="data">Loading...</div>
+
+  <script>
+    async function loadData() {
+      const res = await fetch('/latest');
+      const data = await res.json();
+      document.getElementById('data').innerHTML = `
+        <p>License: ${data.license || ''}</p>
+        <p>Registration: ${data.registration || ''}</p>
+        <img src="data:image/jpeg;base64,${data.image || ''}" style="max-width:400px;">
+      `;
+    }
+    setInterval(loadData, 2000);
+  </script>
+</body>
+</html>
