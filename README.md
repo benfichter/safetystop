@@ -19,7 +19,7 @@ Our current prototype is enclosed in a clear housing for visibility and testing.
 
 | Front View | Home View | Top View |
 |------------|-----------|----------|
-| ![Prototype Front](images/prototype_front.jpg) | ![Prototype Home](images/prototype_home.jpg) | ![Prototype Top](images/prototype_top.jpg) |
+| ![Prototype Front](images/prototype_front_view.jpg) | ![Prototype Home](images/prototype_home_view.jpg) | ![Prototype Top](images/prototype_top_view.jpg) |
 
 ---
 
@@ -99,38 +99,6 @@ Our design carefully considers **Maryland laws** and traffic safety regulations 
 
 4. **Officer Viewing**  
    - Police laptop displays the data on a secure, browser-based dashboard.
-
----
-
-## File Structure
-
-police-traffic-stop-safety/
-│
-├── images/
-│ ├── chao_wu_interview.jpg
-│ ├── david_ryan_interview.jpg
-│ ├── jason_kindel_interview.jpg
-│ ├── prototype_front.jpg
-│ ├── prototype_home.jpg
-│ ├── prototype_top.jpg
-│ ├── sketch_1.jpg
-│ ├── sketch_2.jpg
-│ ├── sketch_3.jpg
-│ ├── sketch_4.jpg
-│ └── wired_proof_of_concept.jpg
-│
-├── arduino/
-│ ├── police_device.ino
-│ ├── fingerprint.h
-│ ├── camera.h
-│ └── wifi_comm.h
-│
-├── laptop-server/
-│ ├── server.js
-│ ├── package.json
-│ └── public/index.html
-│
-└── README.md
 
 ---
 
