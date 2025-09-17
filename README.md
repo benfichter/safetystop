@@ -41,14 +41,9 @@ These sketches represent our brainstorming process for designing a secure, user-
 
 Our early proof-of-concept wiring demonstrates the raw hardware setup before housing integration:
 
-<!-- Wired POC container -->
-<p align="center">
-  <img src="images/wired_proof_of_concept.jpg"
-       alt="Wired Proof of Concept"
-       width="800">
-  <br>
-  <em>Wired Proof of Concept (landscape)</em>
-</p>
+| Proof of Concept |
+|----------|
+| ![Proof of Concept](images/wired_proof_of_concept.jpg) |
 ---
 
 ## Interviews and Stakeholder Research
