@@ -41,7 +41,9 @@ These sketches represent our brainstorming process for designing a secure, user-
 
 Our early proof-of-concept wiring demonstrates the raw hardware setup before housing integration:
 
-![Wired Prototype](images/wired_proof_of_concept.jpg)
+<p align="center">
+  <img src="images/wired_proof_of_concept.jpg" alt="Wired Proof of Concept" width="600" style="transform: rotate(270deg);">
+</p>
 
 ---
 
